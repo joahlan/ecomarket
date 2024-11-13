@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <title>EcoMarket</title>
+
+    <script>
+        function enviar() {
+
+            var obj = {
+                usuario: document.getElementById("usuario").value,
+                senha: document.getElementById("senha").value
+            };
+
+
+            var configuracao = {
+
+                method: "POST",
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(obj)
+            };
+
+
+            fetch("/validar_login", configuracao)
+                .then(response => response.text())
+                .then(joesley => {
+                    window.location.href = joesley;
+                })
+
+
+
+
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="cabecalho">
+
+        <h1>Faça login</h1>
+        <p>Usuario:</p>
+        <input id="usuario" placeholder="Digite seu Usuario...">
+        <p>Senha:</p>
+        <input id="senha" type="password" placeholder="Digite sua senha...">
+        <br>
+        <button onclick="enviar()">ENTRAR</button>
+        <br>
+
+    </div>
+
+    <div id="vertical"></div>
+
+    <div class="comercial">
+
+        <img src="assets/1.png" width="500px" height="500px">
+        <h1>GESTÃO DE ESTOQUE</h1>
+        <h4>COLABORADORES</h4>
+
+    </div>
+
+</body>
+
+</html>

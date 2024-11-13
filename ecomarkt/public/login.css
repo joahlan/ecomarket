@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville+SC&family=Fjalla+One&family=Freeman&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+body{
+    display: flex;
+    justify-content: center;  
+    background-color: #f7fff6; 
+}
+
+#vertical{
+    width: 1px;
+    height: 570px;
+    background-color: silver;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 200px;
+    background-color: #4d8f52;
+    width: 340px;
+    height: 470px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #c0c0c0;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+input{
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+button{
+    border: 0px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+    width: 60px;
+    transition: 1s;
+    font-family: "Freeman";
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.comercial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-size: 18px;
+}
