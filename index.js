@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, "public")))
 
 //Fornece a pagina de login
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname + "/public/login.html"))
+    res.sendFile(path.join(__dirname + "/public/inicio.html"))
 })
 
 
