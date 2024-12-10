@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
         body {
-            background-color: #f7fff6; 
+            background-color: #dadada; 
         }
 
         #logo{
@@ -16,7 +16,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
             font-family: "Poppins", "sans-serif";
+
+            color: white;
             background-color: #4d8f52;
             border-radius: 3px;
             width: 100%;
@@ -44,14 +47,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             border-radius: 3px;
             margin-left: 50px;
             margin-right: 90px;
+
             color: black;
             background-color: #4d8f52;
+            box-shadow: 0px 0px 7px 0px #c5c5c5;
+
             width: 280px;
-            height: 30px;
-            box-shadow: 0px 0px 7px 0px #c5c5c5;;
+            height: 35px;
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
         }
 
         h2 {

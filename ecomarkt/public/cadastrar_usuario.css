@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville+SC&family=Fjalla+One&family=Freeman&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #dadada;  
+
+    font-family: "Poppins";
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #4d8f52;
+    color: white;
+
+    width: 400px;
+
+    margin-top: 80px;
+    border-radius: 3px;
+}
+
+input{
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+button{
+    border: 0px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+    width: 60px;
+    transition: 1s;
+    font-family: "Freeman";
+    margin: 20px;
+    width: 70px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
